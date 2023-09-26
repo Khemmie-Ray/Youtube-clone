@@ -10,7 +10,7 @@ const options = {
 	method: 'GET',
     cache: "force-cache",
 	headers: {
-		'X-RapidAPI-Key': 'd2910875cbmsh834f6c7003c43c7p12256ejsna05580b09020',
+		'X-RapidAPI-Key': import.meta.env.VITE_YOUTUBE_API_KEY,
 		'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
 	}
 };
